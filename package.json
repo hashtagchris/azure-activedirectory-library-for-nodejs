@@ -1,24 +1,25 @@
 {
-  "name": "adal-node",
+  "name": "@hashtagchris/adal-node-no-api-version",
   "author": {
-    "name": "Microsoft Open Technologies Inc",
-    "email": "msopentech@microsoft.com",
-    "url": "http://msopentech.com/"
+    "name": "Chris Sidi",
+    "email": "cubandressing@gmail.com",
+    "url": "http://github.com/hashtagchris"
   },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AzureAD/azure-activedirectory-library-for-nodejs.git"
+    "url": "https://github.com/hashtagchris/azure-activedirectory-library-for-nodejs.git"
   },
   "version": "0.1.28",
-  "description": "Windows Azure Active Directory Client Library for node",
+  "description": "Fork of `adal-node` with a workaround for the `spn:` prefix bug (#128)",
   "keywords": [
     "node",
     "azure",
     "AAD",
     "adal",
     "adfs",
-    "oauth"
+    "oauth",
+    "spn"
   ],
   "main": "./lib/adal.js",
   "types": "./lib/adal.d.ts",
